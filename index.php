@@ -3,7 +3,10 @@
 
 require 'core/bootstrap.php';
 
-$uri = $_SERVER['REQUEST_URI'];
+// Request -> HTTP
+
+//dd($_SERVER);
+$uri = Request::uri();
 
 // FC -> Front Controller
 Router::load('app/routes.php')->direct($uri);
