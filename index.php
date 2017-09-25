@@ -3,12 +3,7 @@
 
 require 'core/bootstrap.php';
 
-$uri = "tasks";
+$uri = $_SERVER['REQUEST_URI'];
 
-//dd(trim('/about/','/'));
-//
-//dd($_SERVER);
-
-
-// FC -> Front Controler
+// FC -> Front Controller
 Router::load('app/routes.php')->direct($uri);
