@@ -10,6 +10,7 @@
     "autoload": {
         "classmap": [
             "./"
-        ]
+        ],
+        "files": ["/app/core/helpers.php"]
     }
 }

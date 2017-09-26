@@ -13,4 +13,4 @@ $router->get('tasks','TasksController@index');
 $router->get('task','TasksController@create');
 $router->post('task','TasksController@store');
 
-//$router->get('error','TaskControllerNOR@error');
+$router->get('error','TaskControllerNOR@error');
