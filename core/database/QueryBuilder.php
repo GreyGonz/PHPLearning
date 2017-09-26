@@ -5,6 +5,7 @@
  */
 
 class QueryBuilder {
+
     protected $pdo;
 
     public function __construct( PDO $pdo ) {
@@ -12,9 +13,8 @@ class QueryBuilder {
     }
 
     public function fetchAll($table) {
-        $statement = $this->pdo->prepare("SELECT * FROM $table");
 
-        dd($statement);
+        $statement = $this->pdo->prepare("SELECT * FROM $table");
 
         $statement->execute();
 

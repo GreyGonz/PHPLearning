@@ -9,7 +9,7 @@
 class App
 {
 
-    protected $registry = [];
+    protected static $registry = [];
 
     public static function bind($name,$value)
     {

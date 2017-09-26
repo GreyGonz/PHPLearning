@@ -1,11 +1,7 @@
 <?php
 
-$pdo = Connection::connect($config);
+$database = App::resolve('database');
 
-App::bind('database', $query = new QueryBuilder($pdo));
-
-$query = App::resolve('database');
-
-$tasks = $query->fetchAll('tasks');
+$tasks = $database->fetchAll('tasks');
 
 require 'app/views/tasks.view.php';

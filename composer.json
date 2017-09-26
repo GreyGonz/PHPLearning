@@ -1,0 +1,15 @@
+{
+    "name": "grey/php-learning",
+    "authors": [
+        {
+            "name": "GreyGonz",
+            "email": "gerardrey@iesebre.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    }
+}
