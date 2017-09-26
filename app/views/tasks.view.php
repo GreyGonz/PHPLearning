@@ -4,7 +4,7 @@
 
     <ul>
         <?php foreach ($tasks as $task) : ?>
-            <li><?= $task['name']?></li>
+            <li><?= $task->name?></li>
         <?php endforeach;?>
     </ul>
 
