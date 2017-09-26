@@ -6,6 +6,8 @@
  * Time: 20:12
  */
 
+namespace PerroPolesiaFramework;
+
 class Request
 {
     public static function uri()

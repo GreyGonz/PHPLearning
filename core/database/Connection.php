@@ -1,5 +1,10 @@
 <?php
 
+namespace PerroPolesiaFramework\Database;
+
+use PDO;
+use PDOException;
+
 class Connection {
     public static function connect($config) {
         try {

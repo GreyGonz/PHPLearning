@@ -1,5 +1,9 @@
 <?php
 
+use PerroPolesiaFramework\App;
+use PerroPolesiaFramework\Database\Connection;
+use PerroPolesiaFramework\Database\QueryBuilder;
+
 $config = require 'config/config.php';
 
 require 'core/lib/functions.php';

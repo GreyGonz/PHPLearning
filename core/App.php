@@ -1,10 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: grey
- * Date: 25/09/17
- * Time: 21:46
- */
+
+namespace PerroPolesiaFramework;
+
 
 class App
 {

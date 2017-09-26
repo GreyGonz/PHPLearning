@@ -1,5 +1,8 @@
 <?php
 
+use PerroPolesiaFramework\Request;
+use PerroPolesiaFramework\Router;
+
 require 'core/bootstrap.php';
 
 
