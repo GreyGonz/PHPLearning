@@ -11,6 +11,6 @@
         "classmap": [
             "./"
         ],
-        "files": ["/app/core/helpers.php"]
+        "files": ["core/helpers.php"]
     }
 }
